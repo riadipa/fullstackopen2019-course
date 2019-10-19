@@ -1,0 +1,14 @@
+title New_Note_Single_Page_app_0.6
+
+note over browser:
+user gives input data in text field 
+and clicks submit button
+browser does not send the form data the traditional way, 
+but instead uses the JavaScript code it 
+fetched from the server
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: HTTP-status code 201(created) {"message":"note created"}
+
+
