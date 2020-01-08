@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFybWFuIiwiaWQiOiI1ZTBlMDg5MGVlOTRiZDQ3YjQxY2RhMWIiLCJpYXQiOjE1Nzc5ODY3NTl9.JR73H2EDlRh5SXZaYgcZf7_BagilQhZ6ZOfMZvO_qPg
+
+{
+    "title": "The Vinci Code",
+    "author": "Dan Brown",
+    "url": "https://localhost.com/",
+    "likes": 500
+}
